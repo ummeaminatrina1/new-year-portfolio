@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.top-banner {
+    background-image: url(/images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 808px;
+}
+
+.my-plan {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+}
+
+.contact-button,
+.call-button,
+.subscribe-button {
+    font-weight: 700;
+    background-color: #FFFFFF;
+    color: #005FAC;
+    border: none;
+    outline: none;
+    padding: 16px;
+    border-radius: 5px;
+}
+
+.top-banner-text {
+    color: #FFFFFF;
+    padding: 150px 150px 50px 0px;
+    text-align: right;
+    line-height: 30px;
+}
+
+.top-banner-text h1 {
+    font-size: 65px;
+    line-height: 76px;
+}
+
+.center-section {
+    margin: 50px 0px 100px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.center-section h1,
+.my-plan-section h1,
+.call-now h2,
+footer h2 {
+    margin: 30px 0px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+}
+
+.center-section p {
+    line-height: 26px;
+}
+
+.my-plan-section {
+    text-align: center;
+}
+
+.my-plan-section h1 {
+    margin: 20px 0px;
+}
+
+.m-5 {
+    margin: 20px;
+}
+
+.icon-green {
+    color: #16D887;
+    margin: 3px 5px 0px 2px;
+}
+
+.call-now {
+    color: #FFFFFF;
+    text-align: center;
+    margin: 120px auto;
+    width: 1140px;
+    height: 300px;
+    background-image: url(/images/gradient1.png), url(/images/watch.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+}
+
+.call-now h2 {
+    text-align: left;
+    padding: 50px 50px 0px 50px;
+}
+
+.call-button {
+    margin: 0px 960px 0px 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 570px;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.half {
+    width: 50%;
+    padding: 150px 0px 100px 150px;
+}
+
+.half img {
+    margin: 5px;
+}
+
+.subscribe-button {
+    background-color: #005FAC;
+    color: #FFFFFF;
+    margin-right: 40px;
+}
+
+input {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 15px;
+    width: 300px;
+    outline: #f8f8ff;
+    border-radius: 5px;
+}
+
+.m-3 {
+    margin: 10px;
+}
